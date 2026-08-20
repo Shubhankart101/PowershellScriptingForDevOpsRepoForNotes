@@ -22,6 +22,8 @@ The daily project use-case index is refreshed at **7:00 AM IST** by [update-proj
 
 Read the current daily rotation in [projects/DAILY_USE_CASES.md](projects/DAILY_USE_CASES.md).
 
+Prepare with [PowerShell DevOps interview questions](interview-prep/README.md) covering Microsoft operations and MAANG-scale automation design.
+
 ## Common commands
 
 Run scripts from their example directory:
