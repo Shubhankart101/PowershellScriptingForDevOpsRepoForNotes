@@ -20,7 +20,7 @@ A practical PowerShell library for DevOps automation, cloud operations, CI/CD, o
 
 The weekly project use-case index is refreshed every Monday at **7:00 AM IST** by [update-project-use-cases.yml](.github/workflows/update-project-use-cases.yml).
 
-Read the current daily rotation in [projects/DAILY_USE_CASES.md](projects/DAILY_USE_CASES.md).
+Read the current rotation in [projects/DAILY_USE_CASES.md](projects/DAILY_USE_CASES.md) and preserved weekly snapshots in [projects/use-case-history](projects/use-case-history). Historical use cases are never deleted.
 
 Prepare with [PowerShell DevOps interview questions](interview-prep/README.md) covering Microsoft operations and MAANG-scale automation design.
 
