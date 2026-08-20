@@ -32,6 +32,17 @@ These are interview-style prompts for PowerShell automation, Azure operations, a
 - **Configuration compliance:** baselines, drift, `-WhatIf`, signing, and audit output.
 - **Platform health reporting:** thresholds, JSON/CSV reports, trends, SLOs, and notifications.
 
+## SRE and DevOps Engineering questions
+
+1. How would you define SLOs and error budgets for a PowerShell-driven deployment platform?
+2. How would you make automation idempotent, observable, retryable, and safe to rerun during incidents?
+3. How would you reduce operational toil with modules, self-service commands, runbooks, and automation ownership?
+4. How would you collect evidence during a production incident while protecting secrets and limiting load?
+5. How would you design alert thresholds to avoid both missed incidents and alert fatigue?
+6. How would you roll back a failed cloud change and verify service recovery?
+7. How would you measure automation reliability, mean time to recovery, change failure rate, and deployment frequency?
+8. How would you review a PowerShell script for security, reliability, portability, and operational supportability?
+
 ## Strong answer checklist
 
 Explain the input contract, safety boundary, happy path, failure path, retry policy, secret handling, logging, tests, and rollback. Mention how the solution works locally and in a managed CI/CD environment.

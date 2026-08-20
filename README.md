@@ -18,7 +18,7 @@ A practical PowerShell library for DevOps automation, cloud operations, CI/CD, o
 - [Configuration and compliance](projects/configuration-compliance)
 - [Reporting and platform health](projects/platform-health-reporting)
 
-The daily project use-case index is refreshed at **7:00 AM IST** by [update-project-use-cases.yml](.github/workflows/update-project-use-cases.yml).
+The weekly project use-case index is refreshed every Monday at **7:00 AM IST** by [update-project-use-cases.yml](.github/workflows/update-project-use-cases.yml).
 
 Read the current daily rotation in [projects/DAILY_USE_CASES.md](projects/DAILY_USE_CASES.md).
 
