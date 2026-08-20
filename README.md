@@ -12,6 +12,7 @@ A practical PowerShell library for DevOps automation, cloud operations, CI/CD, o
 
 ## Project use cases
 
+- [120-question interview bank](interview.md)
 - [Azure use cases](projects/use-cases/azure.md)
 - [AWS use cases](projects/use-cases/aws.md)
 - [On-premises use cases](projects/use-cases/on-premises.md)
