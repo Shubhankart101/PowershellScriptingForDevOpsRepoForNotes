@@ -130,3 +130,36 @@ This bank contains 120 questions organized by difficulty, covering PowerShell au
 118. How do you diagnose memory growth in a long-running runspace?
 119. How do you design operational safety controls for destructive commands?
 120. Design a secure, observable, cross-cloud PowerShell automation platform.
+
+## HackerRank-Style PowerShell Challenges: 121-150
+
+121. Count log levels from pipeline objects.
+122. Return the first duplicate deployment ID.
+123. Merge overlapping maintenance windows.
+124. Group hosts by environment.
+125. Return the top three error codes.
+126. Create an advanced function with a validated environment parameter.
+127. Convert objects to stable JSON.
+128. Validate required CSV columns.
+129. Implement retry with exponential backoff.
+130. Wrap a command with timeout and exit-code validation.
+131. Follow pagination links with `Invoke-RestMethod`.
+132. Handle HTTP 429 responses.
+133. Calculate a file hash.
+134. Extract an archive while rejecting traversal paths.
+135. Compare desired and actual hashtables.
+136. Run a throttled parallel worker.
+137. Separate successful and failed parallel results.
+138. Build a resumable batch script with a checkpoint JSON file.
+139. Pass native-command arguments safely as an array.
+140. Load configuration with environment overrides.
+141. Define a deployment request parameter class.
+142. Test retry and error paths with Pester.
+143. Mock an Az cmdlet and test idempotent creation.
+144. Mock an AWS cmdlet and test missing-resource handling.
+145. Emit structured JSON logs with a correlation ID.
+146. Map exceptions to stable process exit codes.
+147. Use runspaces for bounded concurrent API calls.
+148. Report dependency status with a health function.
+149. Emit deployment duration and failure metrics.
+150. Build a tested PowerShell module for safe deployment.
