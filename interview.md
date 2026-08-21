@@ -163,3 +163,9 @@ This bank contains 120 questions organized by difficulty, covering PowerShell au
 148. Report dependency status with a health function.
 149. Emit deployment duration and failure metrics.
 150. Build a tested PowerShell module for safe deployment.
+
+## Executable Answers
+
+- [Beginner answers](interview-answers/beginner.ps1): object grouping, validation, and safe error handling.
+- [Intermediate answers](interview-answers/intermediate.ps1): retry, pagination, and reusable functions.
+- [Advanced answers](interview-answers/advanced.ps1): health-gated deployment and rollback.
