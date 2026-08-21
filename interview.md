@@ -307,35 +307,65 @@ The deployment is promoted only after health succeeds; rollback runs before the 
 ## HackerRank-Style PowerShell Challenges: 121-150
 
 121. Count log levels from pipeline objects.
+**Answer:** Parse the input into structured records, use a map or counter for aggregation, sort only when ranking is required, and test empty, duplicate, and boundary inputs.
 122. Return the first duplicate deployment ID.
+**Answer:** Parse the input into structured records, use a map or counter for aggregation, sort only when ranking is required, and test empty, duplicate, and boundary inputs.
 123. Merge overlapping maintenance windows.
+**Answer:** Parse the input into structured records, use a map or counter for aggregation, sort only when ranking is required, and test empty, duplicate, and boundary inputs.
 124. Group hosts by environment.
+**Answer:** Parse the input into structured records, use a map or counter for aggregation, sort only when ranking is required, and test empty, duplicate, and boundary inputs.
 125. Return the top three error codes.
+**Answer:** Parse the input into structured records, use a map or counter for aggregation, sort only when ranking is required, and test empty, duplicate, and boundary inputs.
 126. Create an advanced function with a validated environment parameter.
+**Answer:** Parse with the platform's structured data tool, validate required fields and types at the boundary, and return a clear nonzero failure for malformed input.
 127. Convert objects to stable JSON.
+**Answer:** Parse with the platform's structured data tool, validate required fields and types at the boundary, and return a clear nonzero failure for malformed input.
 128. Validate required CSV columns.
+**Answer:** Parse with the platform's structured data tool, validate required fields and types at the boundary, and return a clear nonzero failure for malformed input.
 129. Implement retry with exponential backoff.
+**Answer:** Retry only transient failures with a bounded exponential backoff, enforce a timeout, and return the original failure after the retry budget is exhausted.
 130. Wrap a command with timeout and exit-code validation.
+**Answer:** Retry only transient failures with a bounded exponential backoff, enforce a timeout, and return the original failure after the retry budget is exhausted.
 131. Follow pagination links with `Invoke-RestMethod`.
+**Answer:** Use explicit authentication, timeouts, status handling, pagination, rate-limit handling, and structured response validation; never place credentials in source.
 132. Handle HTTP 429 responses.
+**Answer:** Retry only transient failures with a bounded exponential backoff, enforce a timeout, and return the original failure after the retry budget is exhausted.
 133. Calculate a file hash.
+**Answer:** Verify the expected digest before use and reject absolute paths or .. traversal entries before extracting or writing files.
 134. Extract an archive while rejecting traversal paths.
+**Answer:** Verify the expected digest before use and reject absolute paths or .. traversal entries before extracting or writing files.
 135. Compare desired and actual hashtables.
+**Answer:** Verify the expected digest before use and reject absolute paths or .. traversal entries before extracting or writing files.
 136. Run a throttled parallel worker.
+**Answer:** Use a bounded worker pool, collect each success and exception separately, and fail the operation when the defined error threshold is exceeded.
 137. Separate successful and failed parallel results.
+**Answer:** Use a bounded worker pool, collect each success and exception separately, and fail the operation when the defined error threshold is exceeded.
 138. Build a resumable batch script with a checkpoint JSON file.
+**Answer:** Parse with the platform's structured data tool, validate required fields and types at the boundary, and return a clear nonzero failure for malformed input.
 139. Pass native-command arguments safely as an array.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for PowerShell.
 140. Load configuration with environment overrides.
+**Answer:** Parse with the platform's structured data tool, validate required fields and types at the boundary, and return a clear nonzero failure for malformed input.
 141. Define a deployment request parameter class.
+**Answer:** Deploy an immutable version, run a health or smoke check, promote only on success, and invoke a tested rollback while preserving the failure in logs.
 142. Test retry and error paths with Pester.
+**Answer:** Retry only transient failures with a bounded exponential backoff, enforce a timeout, and return the original failure after the retry budget is exhausted.
 143. Mock an Az cmdlet and test idempotent creation.
+**Answer:** Test the happy path, invalid input, timeout, retry exhaustion, and partial failure with mocks for external systems and an assertion on the final result.
 144. Mock an AWS cmdlet and test missing-resource handling.
+**Answer:** Test the happy path, invalid input, timeout, retry exhaustion, and partial failure with mocks for external systems and an assertion on the final result.
 145. Emit structured JSON logs with a correlation ID.
+**Answer:** Parse with the platform's structured data tool, validate required fields and types at the boundary, and return a clear nonzero failure for malformed input.
 146. Map exceptions to stable process exit codes.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for PowerShell.
 147. Use runspaces for bounded concurrent API calls.
+**Answer:** Use a bounded worker pool, collect each success and exception separately, and fail the operation when the defined error threshold is exceeded.
 148. Report dependency status with a health function.
+**Answer:** Deploy an immutable version, run a health or smoke check, promote only on success, and invoke a tested rollback while preserving the failure in logs.
 149. Emit deployment duration and failure metrics.
+**Answer:** Deploy an immutable version, run a health or smoke check, promote only on success, and invoke a tested rollback while preserving the failure in logs.
 150. Build a tested PowerShell module for safe deployment.
+**Answer:** Test the happy path, invalid input, timeout, retry exhaustion, and partial failure with mocks for external systems and an assertion on the final result.
 
 ## Executable Answers
 
