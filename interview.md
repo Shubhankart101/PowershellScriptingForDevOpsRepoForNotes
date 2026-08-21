@@ -1,6 +1,59 @@
 # PowerShell for DevOps Interview Question Bank
 
-This bank contains 120 questions organized by difficulty, covering PowerShell automation, Azure, APIs, Windows operations, CI/CD, and reliability.
+This bank contains 150 questions organized by difficulty, covering PowerShell automation, Azure, APIs, Windows operations, CI/CD, and reliability.
+
+## Worked Answers
+
+### Beginner: objects and validation
+
+**Question:** How do you count log levels from pipeline objects?
+
+```powershell
+function Get-LogLevelCounts {
+	param([object[]]$Records)
+	$Records | Group-Object Level | ForEach-Object {
+		[pscustomobject]@{ Level = $_.Name; Count = $_.Count }
+	}
+}
+```
+
+The function receives objects, groups them by `Level`, and returns structured objects that can continue through the PowerShell pipeline.
+
+### Intermediate: retry with backoff
+
+**Question:** How do you retry a transient operation safely?
+
+```powershell
+function Invoke-WithRetry {
+	param([scriptblock]$Action, [int]$Attempts = 3)
+	for ($attempt = 1; $attempt -le $Attempts; $attempt++) {
+		try { return (& $Action) }
+		catch {
+			if ($attempt -eq $Attempts) { throw }
+			Start-Sleep -Seconds ([math]::Pow(2, $attempt - 1))
+		}
+	}
+}
+```
+
+Only transient work should be retried, and the final exception must remain visible to CI.
+
+### Advanced: health-gated rollback
+
+**Question:** How do you roll back when deployment health checks fail?
+
+```powershell
+& $Deploy $Release
+try {
+	if (-not (& $Health)) { throw 'health check failed' }
+}
+catch {
+	& $Rollback $Release
+	throw
+}
+```
+
+The deployment is promoted only after health succeeds; rollback runs before the failure is returned.
 
 ## Beginner: 1-40
 
